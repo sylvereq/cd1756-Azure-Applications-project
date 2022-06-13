@@ -9,8 +9,8 @@
 
 | Criteria      | VM | App Service |
 | ----------- | ----------- | ----------- |
-| Cost      | Higher Costs at the beginning       | Lower Costs at the beginning       |
-| Scalability   | Custom        | Auto scaling |
+| Cost      | Higher Costs at the beginning - reserved instances possible - pay per instance | Lower Costs at the beginning  - usage driven costs     |
+| Scalability   | - Access possible to server configuration - Higher resposibility for configuration | - Not possible to get access to server configurations to analyze performance issues - no multideployments - vertical scaling |
 | Availability | Much better availability | Not for high availability |
 | Workflow | More maintenance necessary, more efford to integrate in development workflow | Less maintenance, easy integrated in ci/cd of git |
 
